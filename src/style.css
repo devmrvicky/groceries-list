@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+}
+
+.header,
+.footer {
+  background-color: royalblue;
+}
+.checkbox {
+  min-width: 24px;
+}
+/* .item-name {
+  user-select: none;
+} */
+.delete-btn {
+  min-width: 24px;
+}
