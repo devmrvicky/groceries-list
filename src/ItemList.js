@@ -2,7 +2,7 @@ import LineItem from "./LineItem";
 
 const ItemList = ({ items, handleCheck, handleDelete }) => {
   return (
-    <ul className="max-w-lg mx-auto">
+    <ul className="w-full max-w-lg mx-auto">
       {items.map((item) => (
         <LineItem
           key={item.id}
